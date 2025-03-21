@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build && electron-builder",
-    "build:linux": "vue-tsc && vite build && electron-builder --linux arm64",
+    "build:linux": "vue-tsc && vite build && electron-builder --linux deb --arm64",
     "preview": "vite preview"
   },
   "dependencies": {
