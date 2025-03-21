@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author":{
+    "name": "leyen",
+    "email": "672228275@qq.com"
+  },
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build && electron-builder",
